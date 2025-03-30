@@ -1,0 +1,28 @@
+/* src/components/NotesList.css */
+.notes-header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .note-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .note-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-dialog {
+    margin-top: 10vh;
+  }
+  
+  .pagination .page-link {
+    color: #666;
+  }
+  
+  .pagination .page-link:hover {
+    color: #000;
+  }
+  
